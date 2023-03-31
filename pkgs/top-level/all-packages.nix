@@ -33517,6 +33517,8 @@ with pkgs;
 
   prusa-slicer = darwin.apple_sdk_11_0.callPackage ../applications/misc/prusa-slicer { };
 
+  prusa-slicer-latest = darwin.apple_sdk_11_0.callPackage ../applications/misc/prusa-slicer/prusa-slicer-latest.nix { };
+
   super-slicer = darwin.apple_sdk_11_0.callPackage ../applications/misc/prusa-slicer/super-slicer.nix { };
 
   super-slicer-latest = super-slicer.latest;
